@@ -1,0 +1,73 @@
+/* Body with gradient background */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff); /* blue gradient */
+    min-height: 100vh;
+}
+
+/* Headings */
+h1, h2 {
+    margin: 10px;
+    color: #222;
+}
+
+/* Button container */
+.btn-container {
+    margin-top: 40px;
+}
+
+/* Each row of buttons */
+.line-one,
+.line-two {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+    width: 150px;
+    height: 150px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 5px solid black; /* Thick black border */
+}
+
+/* Button colors */
+.red {
+    background-color: #e74c3c;
+}
+
+.yellow {
+    background-color: #f1c40f;
+    color: black;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.purple {
+    background-color: #9b59b6;
+}
+
+/* Click effect */
+.btn:active {
+    transform: scale(0.95);
+}
+.flash{
+    background-color: white;
+}
